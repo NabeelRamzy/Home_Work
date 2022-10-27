@@ -33,7 +33,7 @@ public class AboutMeTest {
 		alex.expectatedSalary = 23489778634f;
 		alex.bankBalance = 1073846;
 		alex.sriLankan = true;
-
+         String tring = "String";
 		System.out.println("My Name is :" + alex.myname + " \nMy Sex :" + alex.gender + "\nMy Height:" + alex.height
 				+ " \nMy Incom:" + alex.mySalary + "\nThe Income i expect:" + alex.expectatedSalary
 				+ "\nMy bank balance is:" + alex.bankBalance + "\nIam not a Srilankan:" + alex.sriLankan);
