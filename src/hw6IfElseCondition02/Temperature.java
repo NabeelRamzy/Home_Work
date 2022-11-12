@@ -11,7 +11,7 @@ public class Temperature {
 
 		if (todaysTemperatur < 32) {
 			System.out.println("Freezing");
-		} else if (todaysTemperatur > 55) {
+		} else if (todaysTemperatur < 55) {
 			System.out.println("Pleasant");
 		} else if (todaysTemperatur < 73) {
 			System.out.println("Getting Warmer");
@@ -20,6 +20,8 @@ public class Temperature {
 		} else {
 			System.out.println("Please put Ice on my Head");
 		}
+
+		scanner.close();
 	}
 
 }
