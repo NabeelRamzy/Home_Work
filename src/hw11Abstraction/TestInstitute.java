@@ -35,6 +35,7 @@ public class TestInstitute {
 		university.teacher();
 		University.universityInfo(); // static method
 		University.library();
+		university.uni(); // default method
 
 		System.out.println("<----------------- Abstract Class --------------------->");
 
