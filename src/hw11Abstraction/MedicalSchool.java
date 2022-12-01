@@ -1,6 +1,6 @@
 package hw11Abstraction;
 
-public abstract class MedicalSchool extends NursingSchool {
+public abstract class MedicalSchool extends NursingSchool  implements LawSchool{
 	// Abstraction Method
 	public abstract void anatomyLab();
 

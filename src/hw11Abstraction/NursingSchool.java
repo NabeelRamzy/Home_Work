@@ -1,6 +1,6 @@
 package hw11Abstraction;
 
-public abstract class NursingSchool extends RockefellerUniversity implements LawSchool {
+public abstract class NursingSchool extends RockefellerUniversity {
 
 	public abstract void hygiene();
 
