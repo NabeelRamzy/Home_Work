@@ -1,6 +1,12 @@
 package hw12Polymorphism;
 
 public class Niece extends Sister{
+	
+	/*...............overloading......................
+	 * When different methods exist with the same method name with same parameters 
+	 * or signature but with different syntax or logic, it is called method overriding. 
+	 * Method Overriding occurs during run time
+	 */
 
 	@Override
 	public int sister(int age1, int age2, int age3) {
@@ -58,5 +64,10 @@ public class Niece extends Sister{
 	public void sister(int age1, int age2 ,String age4 , int age5, int age6) {
 		int total6 = age1 + age2 + Integer.parseInt(age4) + age5 + age6 - 45;
 		System.out.println("Total " + total6);
+		
+		/* ....... Overloading ..........
+		 * When different methods exist with the same method name but with different parameters or 
+		 * signature, it is called method overloading. Method Overloading occurs during compile time
+		 */
 	}
 }
